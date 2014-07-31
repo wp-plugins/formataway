@@ -2,8 +2,8 @@
 Contributors: 2unco (Bilal Akil)
 Tags: hide, post format
 Requires at least: 3.0
-Tested up to: 3.9
-Stable tag: 3.9.1
+Tested up to: 3.9.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 
 Formataway lets you exclude selected post formats from your post index page's main query.
