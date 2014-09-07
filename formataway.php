@@ -6,7 +6,7 @@
 Plugin Name: Formataway
 Plugin URI: http://bilalakil.me/formataway/
 Description: Exclude selected post formats from your post index page's main query.
-Version: 1.0.1
+Version: 1.1.0
 Author: 2unco (Bilal Akil)
 Author URI: http://bilalakil.me/
 License: GPLv2 or later
