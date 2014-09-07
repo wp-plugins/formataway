@@ -1,21 +1,24 @@
 === Formataway ===
 Contributors: 2unco (Bilal Akil)
 Tags: hide, post format
-Requires at least: 3.0
+Requires at least: 3.9
 Tested up to: 4.0
 Stable tag: 1.1.0
 License: GPLv2 or later
 
-Formataway lets you exclude selected post formats from your post index page's main query.
+Formataway lets you exclude selected post formats from your post index page's
+main query.
 
 == Description ==
 
-I was creating link posts on WordPress' impressive Twentyfourteen happily
+I was creating link posts on http://www.bilalakil.me's Twenty Fourteen happily
 until I felt distraught by the dopplegangers revealed when I added the theme's
 also-impressive Euphoria widget to the mix - to display links.
 
 To solve this problem I decided to exclude posts with the link post format from
 the post index page's main query, and thus this plugin was born.
+
+You can find this plugin at https://github.com/2unco/Formataway!
 
 == Changelog ==
 
