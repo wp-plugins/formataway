@@ -12,7 +12,7 @@ main query.
 == Description ==
 
 I was creating link posts on http://www.bilalakil.me's Twenty Fourteen happily
-until I was nonplussed by the dopplegangers revealed when I added the theme's
+until I was nonplussed by the doppelgängers revealed when I added the theme's
 also-impressive Euphoria widget to the mix - to display links.
 
 To solve this problem I decided to exclude posts with the link post format from
