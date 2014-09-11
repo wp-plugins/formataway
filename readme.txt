@@ -1,5 +1,5 @@
 === Formataway ===
-Contributors: 2unco (Bilal Akil)
+Contributors: Bilal Akil
 Tags: hide, post format
 Requires at least: 3.9
 Tested up to: 4.0
