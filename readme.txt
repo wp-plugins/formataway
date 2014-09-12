@@ -18,7 +18,7 @@ also-impressive Euphoria widget to the mix - to display links.
 To solve this problem I decided to exclude posts with the link post format from
 the post index page's main query, and thus this plugin was born.
 
-You can find this plugin at https://github.com/2unco/Formataway!
+You can find this plugin at https://github.com/bilalakil/Formataway!
 
 == Changelog ==
 
