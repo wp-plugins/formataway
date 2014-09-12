@@ -41,16 +41,22 @@ class Formataway {
 	    if(!$query->is_main_query())
 	        return;
 	    
-	    // TODO: Don't use ->set (because it'll overwrite any existing tax_query
-	    // constraints. Not sure how to get around this yet :(
+	    // We don't want to override any previous taxonomy constraints,
+	    // so we'll fetch the previous array of constraints and add to it.
+	    $tax_query = $query->get('tax_query');
 	    
-        $query->set('tax_query', array(
-            array(
-                'taxonomy'  => 'post_format',   // Post formats are queried as taxonomies
-                'field'     => 'slug',
-                'terms'     => self::$formats,
-                'operator'  => 'NOT IN'
-            )
-        ));
+	    // If there weren't any before, the value would be `""`, so sanitise it.
+	    if(!is_array($tax_query)) {
+	    	$tax_query = array();
+	    }
+	    
+    	$tax_query[] = array(
+            'taxonomy'  => 'post_format',   // Post formats are queried as taxonomies
+            'field'     => 'slug',
+            'terms'     => self::$formats,
+            'operator'  => 'NOT IN'
+        );
+	    
+        $query->set('tax_query', $tax_query);
 	}
 }

@@ -21,7 +21,7 @@ class Formataway_Util {
                 'image'     => _x('Image',      'Post format', 'formataway'),
                 'quote'     => _x('Quote',      'Post format', 'formataway'),
                 'status'    => _x('Status',     'Post format', 'formataway'),
-                'video'     => _x('Vide',       'Post format', 'formataway'),
+                'video'     => _x('Video',      'Post format', 'formataway'),
                 'audio'     => _x('Audio',      'Post format', 'formataway'),
                 'chat'      => _x('Chat',       'Post format', 'formataway')
             );
