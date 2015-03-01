@@ -31,6 +31,9 @@ You can find this plugin at https://github.com/bilalakil/Formataway!
 
 == Changelog ==
 
+= 1.1.1 =
+* WordPress v4.1.1 tested and supported!
+
 = 1.1.0 =
 * WordPress v4.0 tested and supported!
 * We now append our taxonomy constraint to the list of all other constraints
