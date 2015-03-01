@@ -3,7 +3,7 @@ Contributors: bilalakil
 Tags: hide, post format
 Requires at least: 3.9
 Tested up to: 4.1.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 
 Formataway lets you exclude selected post formats from your post index page's
