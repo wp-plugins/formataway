@@ -39,7 +39,7 @@ if(!function_exists('add_action')) {
 	exit;
 }
 
-define('FORMATAWAY_VERSION', '1.0.0');
+define('FORMATAWAY_VERSION', '1.1.0');
 define('FORMATAWAY__PLUGIN_DIR', plugin_dir_path(__FILE__));
 
 require_once(FORMATAWAY__PLUGIN_DIR . 'class.formataway.php');
