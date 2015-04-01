@@ -18,9 +18,7 @@ also-impressive Euphoria widget to the mix - to display links.
 To solve this problem I decided to exclude posts with the link post format from
 the post index page's main query, and thus this plugin was born.
 
-My plugins don't beg for donations or for you to read my name. Instead it has
-its settings sitting neatly on the Settings > Reading page (that's right! not
-in a page of it's own), editable by anybody who has permission to get there.
+The plugin's settings sit neatly on the Settings > Reading page.
 
 You can find this plugin at https://github.com/bilalakil/Formataway!
 
