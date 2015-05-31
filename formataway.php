@@ -6,7 +6,7 @@
 Plugin Name: Formataway
 Plugin URI: http://bilalakil.me/formataway/
 Description: Exclude selected post formats from your post index page's main query.
-Version: 1.1.1
+Version: 1.1.2
 Author: Bilal Akil
 Author URI: http://bilalakil.me/
 License: GPLv2 or later
@@ -34,20 +34,20 @@ Kudos to the great programmers of Akismet for producing an excellent example for
 */
 
 // Make sure we don't expose any info if called directly
-if(!function_exists('add_action')) {
-	echo 'Hi there! I\'m just a plugin, not much I can do when called directly.';
-	exit;
+if( !function_exists( 'add_action' ) ) {
+    echo 'Hi there! I\'m just a plugin, not much I can do when called directly.';
+    exit;
 }
 
-define('FORMATAWAY_VERSION', '1.1.1');
-define('FORMATAWAY__PLUGIN_DIR', plugin_dir_path(__FILE__));
+define( 'FORMATAWAY_VERSION', '1.1.2' );
+define( 'FORMATAWAY__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
-require_once(FORMATAWAY__PLUGIN_DIR . 'class.formataway.php');
-require_once(FORMATAWAY__PLUGIN_DIR . 'class.formataway-util.php');
+require_once( FORMATAWAY__PLUGIN_DIR . 'class.formataway.php' );
+require_once( FORMATAWAY__PLUGIN_DIR . 'class.formataway-util.php' );
 
-add_action('init', array('Formataway', 'init'));
+add_action( 'init', array( 'Formataway', 'init' ) );
 
-if(is_admin()) {
-    require_once(FORMATAWAY__PLUGIN_DIR . 'class.formataway-admin.php');
-	add_action('init', array('Formataway_Admin', 'init'));
+if( is_admin() ) {
+    require_once( FORMATAWAY__PLUGIN_DIR . 'class.formataway-admin.php' );
+    add_action( 'init', array( 'Formataway_Admin', 'init' ) );
 }

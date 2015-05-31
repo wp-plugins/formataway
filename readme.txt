@@ -2,8 +2,8 @@
 Contributors: bilalakil
 Tags: hide, post format
 Requires at least: 3.9
-Tested up to: 4.1.1
-Stable tag: 1.1.1
+Tested up to: 4.2.2
+Stable tag: 1.1.2
 License: GPLv2 or later
 
 Formataway lets you exclude selected post formats from your post index page's
@@ -28,6 +28,11 @@ You can find this plugin at https://github.com/bilalakil/Formataway!
    you wouldn't even be able to tell it apart from the WordPress core.
 
 == Changelog ==
+
+= 1.1.2 =
+* WordPress v4.2.2 tested and supported!
+* Fixed a bug causing a PHP notification when no formats were selected.
+* Cleaned up the code a bit (neater spaces and uniform tabs).
 
 = 1.1.1 =
 * WordPress v4.1.1 tested and supported!
