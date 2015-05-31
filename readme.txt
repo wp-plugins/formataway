@@ -20,7 +20,7 @@ the post index page's main query, and thus this plugin was born.
 
 The plugin's settings sit neatly on the Settings > Reading page.
 
-You can find this plugin at https://github.com/bilalakil/Formataway!
+You can find this plugin at https://github.com/bilalakil/formataway!
 
 == Screenshots ==
 
