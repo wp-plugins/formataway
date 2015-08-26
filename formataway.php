@@ -6,7 +6,7 @@
 Plugin Name: Formataway
 Plugin URI: http://bilalakil.me/formataway/
 Description: Exclude selected post formats from your post index page's main query.
-Version: 1.1.2
+Version: 1.1.3
 Author: Bilal Akil
 Author URI: http://bilalakil.me/
 License: GPLv2 or later
@@ -39,7 +39,7 @@ if( !function_exists( 'add_action' ) ) {
     exit;
 }
 
-define( 'FORMATAWAY_VERSION', '1.1.2' );
+define( 'FORMATAWAY_VERSION', '1.1.3' );
 define( 'FORMATAWAY__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 require_once( FORMATAWAY__PLUGIN_DIR . 'class.formataway.php' );
